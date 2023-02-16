@@ -32,10 +32,10 @@ const Homepage = () => {
     <>
       <Row className="pb-5">
         <Col xs={12} sm={12} md={8} lg={8}>
-          {articles.map((article, i) => (
+          {articles.map((article) => (
             <SingleArticle
               aricleID={article.id}
-              key={i}
+              key={article.id}
               article={article}
             ></SingleArticle>
           ))}
