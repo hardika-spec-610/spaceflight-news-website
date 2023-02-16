@@ -1,5 +1,21 @@
 hr {
-  border-top: 1px solid #b33030;
+  border-top: 1px solid rgb(179, 48, 48);
+}
+.nav-bg {
+  background-color: #b33030;
+}
+.navLink {
+  color: white;
+  font-weight: 600;
+}
+.row-cursor {
+  cursor: pointer;
+}
+.link-color {
+  color: black;
+}
+.link-color:hover {
+  text-decoration: none;
 }
 .trending-btn {
   background-color: #b33030;

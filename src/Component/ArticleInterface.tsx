@@ -5,7 +5,7 @@ export interface ArticleInterface {
   imageUrl: string;
   newsSite: NewsSite;
   summary: string;
-  publishedAt: Date;
+  publishedAt: string;
   updatedAt: Date;
   featured: boolean;
   launches: Launch[];

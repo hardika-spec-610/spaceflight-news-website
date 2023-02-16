@@ -30,11 +30,14 @@ const Homepage = () => {
 
   return (
     <>
-      <h1 className="my-4 text-center "> Spaceflight News Articles</h1>
-      <Row>
+      <Row className="pb-5">
         <Col xs={12} sm={12} md={8} lg={8}>
           {articles.map((article, i) => (
-            <SingleArticle key={i} article={article}></SingleArticle>
+            <SingleArticle
+              aricleID={article.id}
+              key={i}
+              article={article}
+            ></SingleArticle>
           ))}
         </Col>
         <Col xs={12} sm={12} md={4} lg={4}>
